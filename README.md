@@ -21,7 +21,8 @@ From the data pulled, four scatterplots were created, comparing the maximum temp
 The second part of this challenge is to use the city dataframe created above to plan a vacation based on the following weather conditions:
 * A maximum temperature of between 21 and 27 degrees Celsius
 * A wind speed less than 4.5 m/s
-* Zero cloudiness /n
+* Zero cloudiness
+  
 From the above conditions, a new dataframe was created with each city that fits these requirements, and the Geoapify API was
-used to find the first hotel located within 10,000 meters of each cities coordinates. If a hotel was found, its name and country
-was added to the dataframe
+used to find the first hotel located within 10,000 meters of each city's coordinates. If a hotel was found, its name and country
+was added to the dataframe.
